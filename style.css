@@ -1,0 +1,53 @@
+h1 {
+	text-align: center;
+}
+
+body {
+	font-size: 20px;
+	margin: 5%;
+	background-color: #FFFBE3;
+}
+
+
+
+table, th, td {
+	border: 2px solid #000000;
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #DCDCDC;
+	color: #000000;
+
+}
+
+p {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h5 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul, li {
+	float: left;
+}
+
+
+.icon {
+	width:  80px;
+	float: left;
+	display: flex;
+	top: 10px;
+	margin-right: 20px;
+	flex-wrap: wrap;
+}
+
+@media(min-width: 681px) {
+	.table {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+
